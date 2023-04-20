@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactProjectPracticsUdemy/static/css/main.073c9b0a.css",
-    "main.js": "/reactProjectPracticsUdemy/static/js/main.7ac663b6.js",
+    "main.js": "/reactProjectPracticsUdemy/static/js/main.689a66bb.js",
     "static/js/787.7ea0274a.chunk.js": "/reactProjectPracticsUdemy/static/js/787.7ea0274a.chunk.js",
     "index.html": "/reactProjectPracticsUdemy/index.html",
     "main.073c9b0a.css.map": "/reactProjectPracticsUdemy/static/css/main.073c9b0a.css.map",
-    "main.7ac663b6.js.map": "/reactProjectPracticsUdemy/static/js/main.7ac663b6.js.map",
+    "main.689a66bb.js.map": "/reactProjectPracticsUdemy/static/js/main.689a66bb.js.map",
     "787.7ea0274a.chunk.js.map": "/reactProjectPracticsUdemy/static/js/787.7ea0274a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7ac663b6.js"
+    "static/js/main.689a66bb.js"
   ]
 }
