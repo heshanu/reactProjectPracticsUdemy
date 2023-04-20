@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MessageForm = () => {
+const MessageForm = (props) => {
     return (
         <div>
             
