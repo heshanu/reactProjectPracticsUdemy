@@ -3,7 +3,6 @@ import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
 
 const ChatFeed = (props) => {
-    //console.log(JSON.stringify(props));
     const { chats, activeChat, userName, messages } = props;
 
     const chat = chats && chats[activeChat];
