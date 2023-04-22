@@ -2,12 +2,16 @@ import React from 'react'
 import { ChatEngine } from 'react-chat-engine';
 import ChatFeed from './compoents/ChatFeed';
 import './App.css';
+import LoginForm from './compoents/LoginForm';
 
 function App() {
+  if (!localStorage.getItem('username')) return <LoginForm />
+
+
   return (
     <div className="App">
       <ChatEngine
-        projectID="523bcdd7-70b6-49c5-ba64-157f3994e981"
+        projectID={process.env.REACT_APP_PROJECT_ID}
         userName="heshan"
         userSecret="qwerty"
         height='100vh'

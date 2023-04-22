@@ -1,4 +1,5 @@
 const MyMessage = ({ message }) => {
+  //remove tags from message
     const removeTags = (message) => {
       return message.replace(/<.*?>/g, '');
     }
