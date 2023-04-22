@@ -1,4 +1,8 @@
 const MyMessage = ({ message }) => {
+    const removeTags = (message) => {
+      return message.replace(/<.*?>/g, '');
+    }
+
     if (message.attachments && message.attachments.length > 0) {
       return (
         <img
@@ -12,7 +16,7 @@ const MyMessage = ({ message }) => {
   
     return (
       <div className="message" style={{ float: 'right', marginRight: '18px', color: 'white', backgroundColor: '#3B2A50' }} >
-        {message.text}
+        {removeTags(message.text)}
       </div>
     )
   };
